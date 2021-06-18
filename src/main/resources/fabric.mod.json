@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nostrip",
+  "version": "${version}",
+
+  "name": "NoStrip",
+  "description": "just disable log stripping",
+  "authors": [
+    "joe"
+  ],
+  "contact": {
+    "homepage": "https://github.com/joecharamut/nostrip"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nostrip/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+  },
+  "mixins": [
+    "nostrip.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
